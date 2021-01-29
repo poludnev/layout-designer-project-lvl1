@@ -1,4 +1,8 @@
 /** CSS STYLE **/
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --whtie: #fff;
   --white-semi-transparent: #d7ccc0;
@@ -35,7 +39,7 @@ body {
   /* background-color: sandybrown; */
 
   /* max-width: 1100px; */
-
+  box-sizing: border-box;
   margin: auto;
 
   font-size: 16px;
@@ -230,4 +234,66 @@ header section img {
   /* z-index: 1; */
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#navigation > div {
+  width: 350px;
+}
+
+#navigation div.nav {
+  height: 100%;
+
+  padding: 24px;
+
+  background-color: var(--light);
+}
+
+#navigation a:link {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+#navigation a:visited {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+#navigation a:hover div {
+  color: var(--light);
+  text-decoration: none;
+
+  background-color: var(--primary);
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.nav-header {
+  font-size: 52px;
+}
+
+#navigation .nav-num {
+  padding-bottom: 40px;
+
+  font-size: 64px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1em;
+}
+
+.text-left {
+  text-align: left;
+}
+
+#navigation p {
+  margin-top: 16px;
 }
