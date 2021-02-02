@@ -287,9 +287,9 @@ header section img {
 .overlay {
   position: absolute;
 
-  bottom: 0;
+  /* bottom: 0; */
 
-  z-index: -1;
+  /* z-index: -1; */
 
   width: 100%;
 
@@ -297,8 +297,13 @@ header section img {
 }
 
 .video {
-  /* z-index: 1; */
-
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  /* bottom: 0; */
+  right: 0;
+  left: 0;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
