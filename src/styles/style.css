@@ -312,11 +312,11 @@ header section img {
   justify-content: space-between;
 }
 
-#navigation > div {
+.navigation > div {
   width: 350px;
 }
 
-#navigation div.nav {
+.navigation div.nav {
   height: 100%;
 
   padding: 24px;
