@@ -438,7 +438,7 @@ button {
   border: 0;
 }
 
-button::before {
+form button::before {
   position: absolute;
   top: 0;
   right: 0;
