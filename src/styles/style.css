@@ -115,6 +115,13 @@ header section img {
   line-height: 1.2em;
 }
 
+h2 {
+  font-size: 60px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
+  color: var(--primary);
+}
+
 .h3 {
   font-size: 34px;
   font-family: 'Neucha', sans-serif;
