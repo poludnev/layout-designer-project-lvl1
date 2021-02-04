@@ -60,6 +60,7 @@ p {
 }
 
 main {
+  position: relative;
   /* background-color: skyblue; */
 }
 
@@ -85,12 +86,11 @@ section::before {
 
 section {
   position: relative;
-  /* z-index: 1; */
 
   padding-top: 100px;
   padding-bottom: 100px;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 
   background-color: #f5f4f0;
 }
@@ -289,18 +289,15 @@ header section img {
 
   /* bottom: 0; */
 
-  /* z-index: -1; */
-
   width: 100%;
 
   height: 100px;
 }
 
 .video {
-  z-index: 1;
   position: absolute;
   margin: auto;
-  top: 0px;
+  top: 0;
   /* bottom: 0; */
   right: 0;
   left: 0;
